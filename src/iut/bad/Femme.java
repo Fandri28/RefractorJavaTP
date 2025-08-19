@@ -11,9 +11,10 @@ public class Femme extends Humain {
         Homme h = new Homme("Rakoto", "Jean", 30);
         Femme f = new Femme("Rasoa", "Marie", 25);
 
-        f.ami(h);  
+        f.ami(h);           // Utilise la durée par défaut 100 jours
+        f.ami(h, 50);       // Amitié de 50 jours
 
-        f.listerAmis();  
-        h.listerAmis();  
+        f.listerAmis();
+        h.listerAmis();
     }
 }

@@ -36,13 +36,19 @@ public class Humain implements Consommation {
         System.out.println(nom + " est en train de boire.");
     }
 
-    public void ami(Humain autre) {
+   
+    public void ami(Humain autre, int duree) {
         if (!amis.contains(autre)) {
             amis.add(autre);
-            System.out.println(nom + " et " + autre.nom + " sont maintenant amis.");
+            System.out.println(nom + " et " + autre.nom + " sont maintenant amis pour " + duree + " jours.");
         } else {
             System.out.println(nom + " et " + autre.nom + " sont déjà amis.");
         }
+    }
+
+ 
+    public void ami(Humain autre) {
+        ami(autre, 100);
     }
 
     public void listerAmis() {
