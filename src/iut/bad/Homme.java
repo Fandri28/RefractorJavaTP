@@ -6,4 +6,9 @@ public class Homme extends Humain {
         this.prenom = prenom;
         this.age = age;
     }
+
+    public static void main(String[] args) {
+        Homme h = new Homme("Rakoto", "Jean", 30);
+        h.details();
+    }
 }

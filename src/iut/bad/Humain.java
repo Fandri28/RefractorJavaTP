@@ -14,7 +14,11 @@ public class Humain {
     public int getAge() { return age; }
     public void setAge(int age) { this.age = age; }
 
+    public String toString() {
+        return "Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age;
+    }
+
     public void details() {
-        System.out.println("Nom: " + nom + ", Prénom: " + prenom + ", Âge: " + age);
+        System.out.println(toString());
     }
 }
