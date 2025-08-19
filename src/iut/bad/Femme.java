@@ -10,5 +10,7 @@ public class Femme extends Humain {
     public static void main(String[] args) {
         Femme f = new Femme("Rasoa", "Marie", 25);
         f.details();
+        f.manger();
+        f.boire();
     }
 }
