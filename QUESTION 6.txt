@@ -1,0 +1,10 @@
+Question 5 et 6 sont les meme mais expliquons un peut 6
+
+Si on veut déplacer tous les attributs dans le parent Humain, alors Homme et Femme n’auront plus leurs propres champs, juste leur constructeur pour initialiser ceux du parent
+Les champs nom, prenom, age sont uniquement dans Humain.
+
+Homme et Femme héritent ces attributs.
+
+Les getters et setters sont centralisés dans le parent.
+
+Pas de duplication de code.
