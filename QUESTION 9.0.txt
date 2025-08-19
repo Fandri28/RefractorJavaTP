@@ -1,0 +1,3 @@
+Déplacer toString() vers les sous-classes fonctionnera techniquement, mais ce n’est pas recommandé si le comportement est identique.
+
+Il est préférable de laisser toString() dans la classe parente pour centraliser l’affichage et profiter de l’héritage.
